@@ -1,3 +1,4 @@
+
 mode=unattended
 enable-components=javaalfresco,alfrescowcmqs,libreofficecomponent
 disable-components=postgres
@@ -15,7 +16,12 @@ jdbc_password=alfresco
 
 #for postgresql
 
-
+# Use JDBC settings for an existing database
+#jdbc_url=jdbc:postgresql://localhost/alfresco
+#jdbc_driver=org.postgresql.Driver
+#jdbc_database=alfresco
+#jdbc_username=alfresco
+#jdbc_password=alfresco
 
 # Install location
 prefix=/opt/alfresco-community

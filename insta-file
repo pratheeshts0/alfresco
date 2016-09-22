@@ -8,9 +8,9 @@ disable-components=postgres
 
 jdbc_url=jdbc:mysql://192.168.1.235:3306/alfresco2?useUnicode=yes&characterEncoding=UTF-8
 jdbc_driver=org.gjt.mm.mysql.Driver
-jdbc_database=alfresco2
-jdbc_username=alfresco2
-jdbc_password=alfresco2
+jdbc_database=alfresco
+jdbc_username=alfresco
+jdbc_password=alfresco
 
 
 #for postgresql
